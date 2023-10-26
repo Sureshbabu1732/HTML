@@ -1,0 +1,19 @@
+body{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh;
+     margin: 0;
+
+}
+.Right{
+    width: 40vh;
+    height: 40vh;
+    background-color:#6cddf1;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 6px 8px rrgba(206, 0, 0, 0);
+    border-radius: 2;
+
+}

@@ -1,0 +1,48 @@
+body{
+    background-image: url(Redmoon.jpg);
+    -webkit-background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.loginbox{
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 400px;
+    width: 100%;
+    font-family: cursive;
+}    
+.loginbox form{
+display: flex;
+flex-direction: column;
+}
+
+.loginbox label{
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight:lighter;
+} 
+.loginbox input{
+    padding: 10px;
+    border-radius: 10px ;
+
+}
+.loginbox button {
+    padding: 10px 20px;
+    background-color: #003e80;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.loginbox button:hover{
+    background-color: red;
+}
+.container {
+        height: 100vh;
+        display: flex;
+    }

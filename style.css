@@ -1,0 +1,65 @@
+body{
+    background-image: url(Redmoon.jpg);
+    -webkit-background-size: cover;
+    margin: 50px 50px;
+    padding: 50px 50px;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-right: 50px;
+    width: 900%;
+}
+.left-container p{
+margin: 300px 300px;
+}
+
+.right-container {
+    margin: 50px;
+    display:flex;
+    flex:1;
+    padding: 50px;
+    background-color: burlywood;
+    justify-content:center;
+    align-items:center;
+}
+    
+
+.right-container form{
+    
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container label{
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight:lighter;
+} 
+.right-container input{
+    padding: 10px;
+    border-radius: 10px ;
+
+}
+.right-container button {
+    padding: 10px;
+    background-color: #003e80;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.right-container button:hover{
+    background-color: red;
+}
+.container {
+        height: 100vh;
+        display: flex;
+    }

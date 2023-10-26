@@ -1,0 +1,13 @@
+body{
+    background-color: blanchedalmond;
+}
+th{
+    background-color: brown;
+}
+td{
+    background-color: darkcyan;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
